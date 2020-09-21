@@ -6,7 +6,12 @@ namespace _04代理模式
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SchooGirl jiaojiao = new SchooGirl { Name = "李娇娇" };
+            Proxy daili = new Proxy(jiaojiao);
+            daili.GiveDolls();
+            daili.GiveFlowers();
+            daili.GiveDolls();
+            Console.Read();
         }
     }
 }
