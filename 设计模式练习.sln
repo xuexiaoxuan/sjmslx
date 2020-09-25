@@ -15,17 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05工厂方法", "工厂方
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06原型模式", "06原型模式\06原型模式.csproj", "{23454F6B-C7FD-4D2A-98A3-B5197216FC6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07方法模板模式", "07方法模板模式\07方法模板模式.csproj", "{C0B724F0-98F5-4F43-97DF-35369A48CB69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07方法模板模式", "07方法模板模式\07方法模板模式.csproj", "{C0B724F0-98F5-4F43-97DF-35369A48CB69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08外观模式", "08外观模式\08外观模式.csproj", "{ACCF361C-687D-4A74-ADA0-FEF831AF47D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08外观模式", "08外观模式\08外观模式.csproj", "{ACCF361C-687D-4A74-ADA0-FEF831AF47D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09建造者模式", "09建造者模式\09建造者模式.csproj", "{04FE2ABC-083D-4A3F-B896-A7B7632A9A61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09建造者模式", "09建造者模式\09建造者模式.csproj", "{04FE2ABC-083D-4A3F-B896-A7B7632A9A61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10观察者模式", "10观察者模式\10观察者模式.csproj", "{7618A14D-62DF-4087-8F11-4516AFA90CDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10观察者模式", "10观察者模式\10观察者模式.csproj", "{7618A14D-62DF-4087-8F11-4516AFA90CDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11抽象工厂", "11抽象工厂\11抽象工厂.csproj", "{41EE7D3E-58AD-4BCE-BF01-EC4F2CB1DB96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11抽象工厂", "11抽象工厂\11抽象工厂.csproj", "{41EE7D3E-58AD-4BCE-BF01-EC4F2CB1DB96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12状态模式", "12状态模式\12状态模式.csproj", "{7A87389E-2310-4B09-BA92-E9D2238A34DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12状态模式", "12状态模式\12状态模式.csproj", "{7A87389E-2310-4B09-BA92-E9D2238A34DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13适配器模式", "13适配器模式\13适配器模式.csproj", "{DC706B03-77DF-49EE-BA70-675EAF0D92B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{7A87389E-2310-4B09-BA92-E9D2238A34DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A87389E-2310-4B09-BA92-E9D2238A34DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A87389E-2310-4B09-BA92-E9D2238A34DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC706B03-77DF-49EE-BA70-675EAF0D92B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC706B03-77DF-49EE-BA70-675EAF0D92B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC706B03-77DF-49EE-BA70-675EAF0D92B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC706B03-77DF-49EE-BA70-675EAF0D92B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
