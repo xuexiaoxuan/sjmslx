@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _15组合模式
 {
-    abstract class Component
+   abstract  class Component
     {
         protected string name;
         public Component(string name)
@@ -14,5 +14,6 @@ namespace _15组合模式
         public abstract void Add(Component c);
         public abstract void Remove(Component c);
         public abstract void Display(int depth);
+
     }
 }

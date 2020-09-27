@@ -12,18 +12,17 @@ namespace _15组合模式
         }
         public override void Add(Component c)
         {
-            Console.WriteLine("Connot add to aleaf");
+            throw new NotImplementedException();
         }
 
         public override void Display(int depth)
         {
-            Console.WriteLine(new String('-',depth)+name);
+            throw new NotImplementedException();
         }
 
         public override void Remove(Component c)
         {
-            Console.WriteLine("Connot add from aleaf");
-
+            throw new NotImplementedException();
         }
     }
 }
