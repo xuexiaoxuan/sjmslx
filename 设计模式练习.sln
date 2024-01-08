@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30503.244
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01简单工厂", "01简单工厂\01简单工厂.csproj", "{AB87BCD0-96B1-4C40-BFDE-4A07E613AB8B}"
 EndProject
@@ -10,8 +10,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03装饰模式", "03装饰模式\03装饰模式.csproj", "{F3A03CFF-12FF-4E55-93BF-9FA4B8315E15}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04代理模式", "04代理模式\04代理模式.csproj", "{C2B12516-E9EE-4BBD-A068-02F832DDE16A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05工厂方法", "工厂方法\05工厂方法.csproj", "{217F9FCB-95E1-42B1-AA47-445A37A5F77A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06原型模式", "06原型模式\06原型模式.csproj", "{23454F6B-C7FD-4D2A-98A3-B5197216FC6A}"
 EndProject
@@ -33,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14备忘录模式", "14备�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15组合模式", "15组合模式\15组合模式.csproj", "{23410A0B-8A48-48E5-8D65-7FF3BC3CD241}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16迭代器模式", "16迭代器模式\16迭代器模式.csproj", "{639471F4-338D-435E-A3F3-9D9AECD444BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16迭代器模式", "16迭代器模式\16迭代器模式.csproj", "{639471F4-338D-435E-A3F3-9D9AECD444BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17单例模式", "17单例模式\17单例模式.csproj", "{F4DEB152-E939-4FBC-B3D6-D8BF7E64D3AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17单例模式", "17单例模式\17单例模式.csproj", "{F4DEB152-E939-4FBC-B3D6-D8BF7E64D3AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05工厂方法", "05工厂方法\05工厂方法.csproj", "{F59FD3E2-8D78-45FF-B103-AEFA3F4548F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,6 @@ Global
 		{C2B12516-E9EE-4BBD-A068-02F832DDE16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2B12516-E9EE-4BBD-A068-02F832DDE16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2B12516-E9EE-4BBD-A068-02F832DDE16A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{217F9FCB-95E1-42B1-AA47-445A37A5F77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{217F9FCB-95E1-42B1-AA47-445A37A5F77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{217F9FCB-95E1-42B1-AA47-445A37A5F77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{217F9FCB-95E1-42B1-AA47-445A37A5F77A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23454F6B-C7FD-4D2A-98A3-B5197216FC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23454F6B-C7FD-4D2A-98A3-B5197216FC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23454F6B-C7FD-4D2A-98A3-B5197216FC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -111,6 +107,10 @@ Global
 		{F4DEB152-E939-4FBC-B3D6-D8BF7E64D3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4DEB152-E939-4FBC-B3D6-D8BF7E64D3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4DEB152-E939-4FBC-B3D6-D8BF7E64D3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59FD3E2-8D78-45FF-B103-AEFA3F4548F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59FD3E2-8D78-45FF-B103-AEFA3F4548F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59FD3E2-8D78-45FF-B103-AEFA3F4548F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59FD3E2-8D78-45FF-B103-AEFA3F4548F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
