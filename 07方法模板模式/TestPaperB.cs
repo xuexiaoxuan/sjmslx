@@ -6,7 +6,7 @@ namespace _07方法模板模式
 {
     class TestPaperB:TestPaper
     {
-        public override string Answer1()
+        protected override string Answer1()
         {
             return "TestPaperBAnswer1";
         }

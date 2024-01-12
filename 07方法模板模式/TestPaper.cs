@@ -21,7 +21,7 @@ namespace _07方法模板模式
             Console.WriteLine("TestQuestion3");
             Console.WriteLine(Answer1());
         }
-        public virtual string Answer1()
+        protected virtual string Answer1()
         {
             return "";
         }
