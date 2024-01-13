@@ -37,11 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17单例模式", "17单例�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05工厂方法", "05工厂方法\05工厂方法.csproj", "{F59FD3E2-8D78-45FF-B103-AEFA3F4548F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18桥接模式", "18桥接模式\18桥接模式.csproj", "{37C899C7-2610-4C60-8CAC-4B139EBE9824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18桥接模式", "18桥接模式\18桥接模式.csproj", "{37C899C7-2610-4C60-8CAC-4B139EBE9824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19命令模式", "19命令模式\19命令模式.csproj", "{053AE302-8160-4183-9429-F4FC756B952D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19命令模式", "19命令模式\19命令模式.csproj", "{053AE302-8160-4183-9429-F4FC756B952D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20职责链模式", "20职责链模式\20职责链模式.csproj", "{40784C32-2989-4650-9E0F-C8A258D0B6E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20职责链模式", "20职责链模式\20职责链模式.csproj", "{40784C32-2989-4650-9E0F-C8A258D0B6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21中介者模式", "21中介者模式\21中介者模式.csproj", "{4ABE1604-9266-456B-8760-685BC3BEF0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22享元模式", "22享元模式\22享元模式.csproj", "{2DC8D8C3-7372-4DE1-BDDE-981CE567EA87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{40784C32-2989-4650-9E0F-C8A258D0B6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40784C32-2989-4650-9E0F-C8A258D0B6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40784C32-2989-4650-9E0F-C8A258D0B6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABE1604-9266-456B-8760-685BC3BEF0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABE1604-9266-456B-8760-685BC3BEF0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABE1604-9266-456B-8760-685BC3BEF0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABE1604-9266-456B-8760-685BC3BEF0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC8D8C3-7372-4DE1-BDDE-981CE567EA87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC8D8C3-7372-4DE1-BDDE-981CE567EA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC8D8C3-7372-4DE1-BDDE-981CE567EA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC8D8C3-7372-4DE1-BDDE-981CE567EA87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
