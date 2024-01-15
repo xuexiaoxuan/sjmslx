@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22享元模式", "22享元�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23解释器模式", "23解释器模式\23解释器模式.csproj", "{F9350FD5-A77C-46D4-8130-31EEAA1AC7F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24访问者模式", "24访问者模式\24访问者模式.csproj", "{1EAD270E-B0CC-4DA0-9345-B293E8344000}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{F9350FD5-A77C-46D4-8130-31EEAA1AC7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9350FD5-A77C-46D4-8130-31EEAA1AC7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9350FD5-A77C-46D4-8130-31EEAA1AC7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAD270E-B0CC-4DA0-9345-B293E8344000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAD270E-B0CC-4DA0-9345-B293E8344000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAD270E-B0CC-4DA0-9345-B293E8344000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAD270E-B0CC-4DA0-9345-B293E8344000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
